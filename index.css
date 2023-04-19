@@ -1,0 +1,36 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Macondo", cursive;
+}
+
+body {
+  background-image: url("assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  color: rgb(22, 21, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+button {
+  cursor: pointer;
+  background: rgb(240, 107, 18);
+  border: none;
+  font-size:20px;
+  border-radius: 25px;
+  height: 50px;
+  max-width: 300px;
+  width: 100%;
+  color: rgb(11, 13, 15);
+}
