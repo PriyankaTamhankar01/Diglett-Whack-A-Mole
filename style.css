@@ -87,8 +87,25 @@ body {
   transform: translate(-50%, -50%) rotate(-45deg) !important;
 }
 
-@media (max-width: 500px) {
+/* Media query for screens with a maximum width of 415px */
+@media screen and (max-width: 415px) {
+  .grid {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .square {
+   
+    height: 100px;
+    width: 100px;
+    padding: 6px 8px;
+  }
+  .details {
+    padding: 5px;
+    font-size: 1rem;
+  }
   #hammer {
-    display: none;
+    height: 80px;
   }
 }
